@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
 	.container {
 		max-width: 580px;
 	}
@@ -20,7 +20,7 @@
 	.container {
 		max-width: 1250px;
 	}
-}
+} */
 @media all and (max-width: 500px) {
     /* .container{
         margin-top:100px;
@@ -107,7 +107,7 @@
     } 
     
 }
-/* @media (max-width: 768px) {
+@media (min-width: 768px) {
     .menu, .menu-bar { 
         height: 60%;
     }
@@ -174,7 +174,7 @@
     .content-left p {
          padding-right: 0;
     }
-} */
+}
 @media screen and (max-height: 34em){
   .menu li,
   .menu-bar {
