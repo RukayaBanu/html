@@ -1,0 +1,30 @@
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    } 
+  }
+  @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+    .container{
+        max-width: 855px!IMPORTANT;
+    }
+    .mainbg{ 
+        height:30% ;
+     }
+     .h2-content .title-text h2 {
+        color: #fff;
+        font-size: 44px;
+     }
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
+    .container{
+    max-width: 900px!IMPORTANT;
+     }
+}

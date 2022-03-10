@@ -1,0 +1,192 @@
+@media (max-width: 576px) {
+	.container {
+		max-width: 580px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 750px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 980px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 1250px;
+	}
+}
+@media all and (max-width: 500px) {
+    /* .container{
+        margin-top:100px;
+    } */
+    .menu{
+        height:5em;
+        width:100%;
+    }
+    .menu li{
+        display:inline-block;
+        float:left;
+    }
+    .menu-bar li a{
+        width:100%;
+    }
+    .menu-bar{
+        width:100%;
+        left:0;
+        height:0;
+    }
+    .open{
+        width:100%;
+        height:auto;
+    }
+    .para{
+    padding-left:5px;
+    }  
+    .img-profile{
+        padding-top:30px;
+    }
+    .content-t {
+        padding: 0 25px;
+    }
+    .top-h2 { 
+        width: 100%; 
+    }
+    .content-t .cards { 
+        display: inline-block; 
+    }
+    .card-40 {
+        width: 100%;
+        margin:10px 0;
+    }
+    .top-h2 p{
+        padding:0;
+    }
+    .scenario .title {
+          padding: 0 ;
+    }
+    .pt-30 {
+        padding: 30px 30px;
+    }
+    .pt-60 {
+        padding: 60px 33px 50px;
+    }
+    .scenario .scenario_cards .s1, .scenario .scenario_cards .s2 {
+        width: 95%;
+        padding: 40px 10px 20px 10px;
+    }
+    .scenario .scenario_cards, .button-r{
+     
+        display: block;
+          padding: 0;
+    }
+    .multistep_progressbar {
+        display: inline-block;
+    }
+    .multistep_progressbar_pd, .button-flex-container {
+        padding: 10px 15px; 
+    }
+    .w-20, .w-060, .ideas_card .w-30, .ideas_card .w-60{
+        width:100%;
+    }
+    .ideas, .ideas_card {
+        display: inline;
+        padding: 0 90px;
+    }
+    .ideas_card .d-flex {
+        display: block;
+        margin:10px 0;
+    }
+    .content-left p {
+        padding-right: 30px;
+    } 
+    
+}
+/* @media (max-width: 768px) {
+    .menu, .menu-bar { 
+        height: 60%;
+    }
+    .top-h2 { 
+        width: 85%;
+    }
+    .content-t {
+        padding: 0 45px 0 125px;
+    }
+    .card_text {
+        padding: 20px 25px 45px 25px;
+    }
+    .scenario .title {
+        padding: 0 65px;
+    }
+    .scenario_card_img img{
+        width:100%;
+    }
+    .scenario .scenario_cards{
+        display: flex;
+        padding: 0 0px;
+    }
+    .scenario_card_text {
+          padding-right:0;
+    }
+    .scenario_cards_p {
+        padding: 0px 0px 32px;
+    }
+    .mt-30 {
+        margin-top: 125px;
+    }
+    .progress_bar h3 { 
+        font-size: 17px;
+    }
+    .progress_bar .diamond-shape { 
+        transform: rotate(45deg);
+        width: 30px;
+        margin: 0 auto;
+        position: absolute;
+        top: 57px;
+    }
+    .button-r {
+        padding: 200% 0;
+    }
+    .ideas, .ideas_card {
+        display: flex;
+        padding: 0 0px;
+    }
+    .i-img img {
+        position: absolute;
+        top: -30px;
+        width: 40%;
+        right: 3px;
+    }
+    .card-40 {
+        width: 31.33%;
+    }
+    .card-pttd {
+        padding: 44px 30px 10px 30px;
+    }
+    .card-ptd {
+        padding: 44px 30px 10px 30px;
+    }
+    .content-left p {
+         padding-right: 0;
+    }
+} */
+@media screen and (max-height: 34em){
+  .menu li,
+  .menu-bar {
+    font-size:70%;
+  }
+}
+@media screen and (max-height: 34em) and (max-width: 500px){
+  .menu{
+        height:3.5em;
+    }
+}
+    
+
+
+
